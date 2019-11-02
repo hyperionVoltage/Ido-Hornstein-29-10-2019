@@ -1,0 +1,24 @@
+.error_container {
+  padding: 20px;
+  display: flex;
+  background-color: #57606f;
+  border-style: solid;
+  min-width: 50vw;
+}
+
+.error_text {
+  font-size: 2.5vw;
+  padding-right: 10px;
+  white-space: nowrap;
+  min-width: 50vw;
+}
+
+.error_dismiss_button {
+  display: flex;
+  text-align: end;
+  color: #ff4757;
+  cursor: pointer;
+  font-size: 3vw;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,49 @@
+.container {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #b2bec3;
+  border-radius: 2px;
+  text-align: center;
+  margin: 20px;
+  -webkit-box-flex: 10%;
+      -ms-flex: 10%;
+          flex: 10%;
+  min-width: 25vw;
+  z-index: 0;
+}
+
+.location_name {
+  font-size: 3vw;
+}
+
+.location_temp {
+  font-size: 2vw;
+}
+
+.location_weather {
+  font-size: 2vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+}
+
+.remove_button {
+  color: #ff4757;
+  z-index: 1;
+  font-size: 2vw;
+}
+
+.seperator {
+  cursor: pointer;
+}
+
+.remove_icon {
+  cursor: pointer;
+}
+/*# sourceMappingURL=favoriteweathercard.module.css.map */

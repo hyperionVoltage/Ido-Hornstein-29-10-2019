@@ -1,0 +1,20 @@
+.weather_card {
+  border-radius: 2px;
+  padding: 20px;
+  transition: ease-in 0.4s;
+  margin: 10px;
+  width: 20vw;
+  min-width: 150px;
+}
+
+.weather_day_name {
+  font-size: 40px;
+}
+
+.weather_max_temp {
+  font-size: 30px;
+}
+
+.weather_min_temp {
+  font-size: 20px;
+}

@@ -1,0 +1,62 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 10%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.location_title {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: 5vw;
+  margin-top: 120px;
+}
+
+.location_image {
+  height: calc(100vh - 79px);
+}
+
+.current_weather {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%;
+  font-size: 4vw;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 2px;
+  padding: 20px;
+  -webkit-transition: ease-in 0.4s;
+  transition: ease-in 0.4s;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  min-width: 450px;
+}
+
+@media only screen and (max-width: 700px) {
+  .location_image {
+    height: 100%;
+  }
+  .location_title {
+    font-size: 9vw;
+  }
+}
+
+@media only screen and (max-device-width: 700px) and (orientation: landscape) {
+  .location_image {
+    height: 100%;
+  }
+}
+/*# sourceMappingURL=singularlocationweatherdisplay.module.css.map */

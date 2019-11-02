@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,4BAA4B,CAAC;EAC3B,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,KAAK;EAClB,SAAS,EAAE,IAAI;CAChB",
+    "sources": [
+        "favorites.module.scss"
+    ],
+    "names": [],
+    "file": "favorites.module.css"
+}
