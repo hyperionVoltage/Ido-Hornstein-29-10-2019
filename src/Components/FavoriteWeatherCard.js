@@ -29,7 +29,7 @@ function FavoriteWeatherCard(props) {
     async function retriveSingleLocationCurrentWeather() {
       const res = await axios
         .get(
-          "http://dataservice.accuweather.com/currentconditions/v1/" +
+          "https://dataservice.accuweather.com/currentconditions/v1/" +
             props.locationCode,
           {
             params: {

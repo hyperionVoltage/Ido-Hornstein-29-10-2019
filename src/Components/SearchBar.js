@@ -30,7 +30,7 @@ function SearchBar() {
       async function getAutocompletedLocationName() {
         const res = await axios
           .get(
-            "http://dataservice.accuweather.com/locations/v1/cities/autocomplete",
+            "https://dataservice.accuweather.com/locations/v1/cities/autocomplete",
             {
               params: {
                 apikey: process.env.REACT_APP_WEATHER_API_KEY,
@@ -82,7 +82,7 @@ function SearchBar() {
       async function getForecast() {
         const res = await axios
           .get(
-            "http://dataservice.accuweather.com/forecasts/v1/daily/5day/" +
+            "https://dataservice.accuweather.com/forecasts/v1/daily/5day/" +
               stateProvider.locationCodeProvider.locationCode,
             {
               params: {

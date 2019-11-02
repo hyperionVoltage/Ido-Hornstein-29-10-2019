@@ -22,7 +22,7 @@ function SingularLocationWeatherDisplay() {
               position.coords.longitude);
             const request = axios
               .get(
-                "http://dataservice.accuweather.com/locations/v1/cities/geoposition/search",
+                "https://dataservice.accuweather.com/locations/v1/cities/geoposition/search",
                 {
                   params: {
                     apikey: process.env.REACT_APP_WEATHER_API_KEY,
@@ -100,7 +100,7 @@ function SingularLocationWeatherDisplay() {
         if (stateProvider.locationCodeProvider.locationCode) {
           const res = await axios
             .get(
-              "http://dataservice.accuweather.com/currentconditions/v1/" +
+              "https://dataservice.accuweather.com/currentconditions/v1/" +
                 stateProvider.locationCodeProvider.locationCode,
               {
                 params: {
