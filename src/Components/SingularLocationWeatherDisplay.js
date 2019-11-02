@@ -20,8 +20,6 @@ function SingularLocationWeatherDisplay() {
             latLong = await (position.coords.latitude +
               "," +
               position.coords.longitude);
-            console.log(latLong);
-            console.log(process.env.REACT_APP_WEATHER_API_KEY);
             const request = axios
               .get(
                 "http://dataservice.accuweather.com/locations/v1/cities/geoposition/search",
