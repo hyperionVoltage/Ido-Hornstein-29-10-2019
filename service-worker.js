@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Ido-Hornstein-29-10-2019/precache-manifest.a43c6570974a9db34f0c9ea3aa4eb939.js"
+  "/Ido-Hornstein-29-10-2019/precache-manifest.d75331ec62340118e67f386e68939041.js"
 );
 
 self.addEventListener('message', (event) => {
