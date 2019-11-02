@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.js": "/Ido-Hornstein-29-10-2019/static/js/main.6dbe07d3.chunk.js",
+    "main.js.map": "/Ido-Hornstein-29-10-2019/static/js/main.6dbe07d3.chunk.js.map",
+    "runtime-main.js": "/Ido-Hornstein-29-10-2019/static/js/runtime-main.d8051227.js",
+    "runtime-main.js.map": "/Ido-Hornstein-29-10-2019/static/js/runtime-main.d8051227.js.map",
+    "static/js/2.a6d29736.chunk.js": "/Ido-Hornstein-29-10-2019/static/js/2.a6d29736.chunk.js",
+    "static/js/2.a6d29736.chunk.js.map": "/Ido-Hornstein-29-10-2019/static/js/2.a6d29736.chunk.js.map",
+    "static/css/3.d3d09d37.chunk.css": "/Ido-Hornstein-29-10-2019/static/css/3.d3d09d37.chunk.css",
+    "static/js/3.a34b33c5.chunk.js": "/Ido-Hornstein-29-10-2019/static/js/3.a34b33c5.chunk.js",
+    "static/js/3.a34b33c5.chunk.js.map": "/Ido-Hornstein-29-10-2019/static/js/3.a34b33c5.chunk.js.map",
+    "static/js/4.a9ff87c3.chunk.js": "/Ido-Hornstein-29-10-2019/static/js/4.a9ff87c3.chunk.js",
+    "static/js/4.a9ff87c3.chunk.js.map": "/Ido-Hornstein-29-10-2019/static/js/4.a9ff87c3.chunk.js.map",
+    "index.html": "/Ido-Hornstein-29-10-2019/index.html",
+    "precache-manifest.a43c6570974a9db34f0c9ea3aa4eb939.js": "/Ido-Hornstein-29-10-2019/precache-manifest.a43c6570974a9db34f0c9ea3aa4eb939.js",
+    "service-worker.js": "/Ido-Hornstein-29-10-2019/service-worker.js",
+    "static/css/3.d3d09d37.chunk.css.map": "/Ido-Hornstein-29-10-2019/static/css/3.d3d09d37.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d8051227.js",
+    "static/js/4.a9ff87c3.chunk.js",
+    "static/js/main.6dbe07d3.chunk.js"
+  ]
+}
