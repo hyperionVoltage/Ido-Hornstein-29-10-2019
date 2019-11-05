@@ -33,19 +33,7 @@
 }
 
 @media only screen and (max-width: 700px) {
-  .location_image {
-    height: 100%;
-  }
-
   .location_title {
     font-size: 9vw;
-  }
-}
-
-@media only screen and (max-device-width: 700px) {
-  @media screen and (orientation: landscape) {
-    .location_image {
-      height: 100%;
-    }
   }
 }

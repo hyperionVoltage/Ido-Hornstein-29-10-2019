@@ -91,6 +91,10 @@ function SingularLocationWeatherDisplay() {
                 Math.floor(Math.random() * res.data.results.length)
               ].links.download
             );
+            document.body.style.backgroundImage =
+              "url(" + backgroundImage + ")";
+
+            console.log(document.body.style);
           }
         }
       }
@@ -137,10 +141,7 @@ function SingularLocationWeatherDisplay() {
   }
 
   return (
-    <div
-      className={styles.location_image}
-      style={{ backgroundImage: `url(${backgroundImage})` }}
-    >
+    <div className={styles.location_container}>
       <div
         className={styles.location_title}
         style={stateProvider.themeStyle.themesStylesWhole}
